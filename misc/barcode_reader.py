@@ -37,12 +37,8 @@ async def barcode_reader(path_to_image: str, code_count: int = 13):
 if __name__ == '__main__':
     import asyncio
 
-<<<<<<< HEAD
-    # image_file = r' '
-=======
     # image_file = r'e:\SLS-Photo-for-Test\2023\2023.09\15-09-2023_(624)\DSC_7361.JPG'
     # image_file = r'C:\Users\InfSub\Clouds\NextCloud\Cloud.TkYD.ru\InfSub\PublicPhoto\PhotoTextile\Auto_\21032037\2103203779457-c.jpg'
->>>>>>> 5fb992a2caf5eeaa745c3ec80ceb73ad46747606
     image_file = r'e:\SLS-Photo-for-Test\NEXT\NEXT.png'
 
     result = asyncio.run(barcode_reader(image_file))
